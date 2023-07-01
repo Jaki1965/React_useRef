@@ -3,7 +3,10 @@
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
-  color: greenyellow
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .App_title {
@@ -12,5 +15,54 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 60px;
-  font-size: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.App_block_one {
+  border: 1px solid #ffff;
+  width: 300px;
+  min-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App_block_two {
+  border: 1px solid #ffff;
+  width: 300px;
+  min-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App_block_three {
+  border: 1px solid #ffff;
+  width: 300px;
+  min-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App_block_four {
+  border: 1px solid #ffff;
+  width: 300px;
+  min-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App_buttons {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.App_button {
+  max-width: 150px;
+  border-radius: 5px;
 }
