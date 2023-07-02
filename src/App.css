@@ -66,3 +66,17 @@
   max-width: 150px;
   border-radius: 5px;
 }
+
+.App_block_one_p_one {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.App_block_one_p_one_swich {
+  margin: 0;
+  text-align: center;
+  color: rgb(12, 200, 144);
+  font-weight: 900;
+  background: gray;
+}
